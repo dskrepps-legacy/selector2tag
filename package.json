@@ -1,0 +1,28 @@
+{
+  "name": "selector2tag",
+  "version": "0.1.0",
+  "description": "Utility function to build individual HTML tags from CSS selectors.",
+  "keywords": [
+    "utility",
+    "selector"
+  ],
+  "license": "MIT",
+  "author": "Dylan Krepps <dskrepps@gmail.com> (https://github.com/dskrepps)",
+  "homepage": "http://github.com/dskrepps/selector2tag",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dskrepps/selector2tag.git"
+  },
+  "bugs": "http://github.com/dskrepps/selector2tag/issues",
+  "main": "index.js",
+  "dependencies": {
+    "slick": "^1.12.1"
+  },
+  "devDependencies": {
+    "assert": "^1.1.1",
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  }
+}
